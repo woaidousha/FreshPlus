@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Button" parent="android:Widget.Button">
+        <item name="android:textColor">#FFFFFF</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:background">@drawable/button_selector</item>
+    </style>
+
+    <style name="Button.Register" parent="Button">
+        <item name="android:layout_width">@dimen/register_button_width</item>
+        <item name="android:layout_height">@dimen/register_button_height</item>
+        <item name="android:layout_marginTop">@dimen/register_button_margin_top</item>
+        <item name="android:layout_below">@id/input_layout</item>
+        <item name="android:layout_centerHorizontal">true</item>
+    </style>
+
+    <style name="Button.InitButton" parent="Button">
+        <item name="android:layout_marginRight">@dimen/init_button_margin_right_left</item>
+        <item name="android:layout_marginLeft">@dimen/init_button_margin_right_left</item>
+    </style>
+
+    <style name="Button.Send">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">@dimen/register_button_height</item>
+        <item name="android:layout_marginRight">@dimen/send_button_margin</item>
+        <item name="android:layout_marginLeft">@dimen/send_button_margin</item>
+    </style>
+
+    <style name="RegisterEdit">
+        <item name="android:layout_width">@dimen/login_edit_width</item>
+        <item name="android:layout_height">@dimen/login_edit_height</item>
+        <item name="android:textSize">@dimen/register_edit_text_size</item>
+        <item name="android:textColor">@color/register_edit_color</item>
+        <item name="android:textColorHint">@color/register_edit_hint_color</item>
+        <item name="android:singleLine">true</item>
+    </style>
+
+    <style name="RegisterEdit.VerificationCode">
+        <item name="android:maxLength">@integer/verification_code_length</item>
+    </style>
+
+    <style name="RegisterEdit.Password">
+        <item name="android:digits">"1234567890abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ`~!@#$%%^*()-_=+"</item>
+        <item name="android:maxLength">@integer/password_max_length</item>
+    </style>
+
+    <style name="ChooseConnectTitle">
+        <item name="android:layout_width">@dimen/choose_connect_text_width</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:gravity">left|center_vertical</item>
+        <item name="android:textSize">@dimen/choose_connect_title_text_size</item>
+        <item name="android:textColor">@color/choose_connect_title_text_color</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:layout_marginBottom">@dimen/choose_connect_title_margin_bottom</item>
+    </style>
+
+    <style name="ChooseConnectTips">
+        <item name="android:layout_width">@dimen/choose_connect_text_width</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:gravity">left|center_vertical</item>
+        <item name="android:textSize">@dimen/choose_connect_tips_text_size</item>
+        <item name="android:textColor">@color/choose_connect_tips_text_color</item>
+    </style>
+
+    <style name="AccountInfoItemLabel">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_alignParentLeft">true</item>
+        <item name="android:layout_centerVertical">true</item>
+        <item name="android:layout_marginRight">@dimen/account_list_item_label_margin_left_right</item>
+        <item name="android:layout_marginLeft">@dimen/account_list_item_label_margin_left_right</item>
+        <item name="android:textSize">@dimen/account_list_item_label_text_size</item>
+        <item name="android:textColor">@color/account_list_item_label_color</item>
+        <item name="android:gravity">center_vertical|left</item>
+    </style>
+
+    <style name="AccountInfoItemContent">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_centerVertical">true</item>
+        <item name="android:layout_toRightOf">@id/address_label</item>
+        <item name="android:textSize">@dimen/account_list_item_content_text_size</item>
+        <item name="android:textColor">@color/account_list_item_content_color</item>
+        <item name="android:gravity">center_vertical|left</item>
+        <item name="android:maxWidth">@dimen/account_list_item_content_max_width</item>
+        <item name="android:maxLines">3</item>
+    </style>
+
+    <style name="PasswordLayout">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">@dimen/modify_password_item_height</item>
+        <item name="android:paddingLeft">@dimen/modify_password_item_padding_left_right</item>
+        <item name="android:paddingRight">@dimen/modify_password_item_padding_left_right</item>
+        <item name="android:paddingTop">@dimen/modify_password_item_padding_top_bottom</item>
+        <item name="android:paddingBottom">@dimen/modify_password_item_padding_top_bottom</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:orientation">horizontal</item>
+    </style>
+
+    <style name="PasswordLabel">
+        <item name="android:layout_width">@dimen/modify_password_label_width</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:gravity">center_vertical|left</item>
+        <item name="android:textColor">@color/modify_password_label_color</item>
+        <item name="android:textSize">@dimen/modify_password_label_size</item>
+        <item name="android:singleLine">true</item>
+    </style>
+
+    <style name="ModifyPasswordEdit" parent="RegisterEdit.Password">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:gravity">center_vertical|left</item>
+        <item name="android:textColor">@color/modify_password_label_color</item>
+        <item name="android:textSize">@dimen/modify_password_label_size</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:password">true</item>
+        <item name="android:background">@android:color/transparent</item>
+    </style>
+
+    <style name="AirActivityTheme" parent="android:Theme.Holo.Light.NoActionBar">
+        <item name="android:windowBackground">@drawable/common_background</item>
+        <item name="android:screenOrientation">portrait</item>
+    </style>
+
+    <style name="OtherActivityTheme" parent="AirActivityTheme">
+        <item name="android:windowBackground">@color/other_activity_background</item>
+    </style>
+</resources>

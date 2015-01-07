@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="action_bar_height">55dp</dimen>
+    <dimen name="action_bar_btn_width_height">48dp</dimen>
+    <dimen name="action_bar_title">22sp</dimen>
+    <dimen name="first_init_intro">14sp</dimen>
+    <dimen name="scan_home_wifi_header_height">212dp</dimen>
+    <dimen name="scan_home_tips_size">16sp</dimen>
+
+    <dimen name="data_text_size">28sp</dimen>
+    <dimen name="data_secondary_text_size">20sp</dimen>
+    <dimen name="data_numeric_text_size">38sp</dimen>
+
+    <dimen name="pm25_title_text">22sp</dimen>
+    <dimen name="pm25_numeric_text">28sp</dimen>
+    <dimen name="pm25_level_text">18sp</dimen>
+    <dimen name="pm25_level_detail_text">24sp</dimen>
+
+    <dimen name="radio_button_drawable_padding">12dp</dimen>
+
+    <dimen name="filter_label_text_size">14sp</dimen>
+    <dimen name="filter_progress_text_size">18sp</dimen>
+    <dimen name="button_text_size">16sp</dimen>
+    <dimen name="loading_text_size">16sp</dimen>
+    <dimen name="aqi_numeric_text_size">28sp</dimen>
+    <dimen name="aqi_label_text_size">20sp</dimen>
+    <dimen name="aqi_level_text_size">50sp</dimen>
+    <dimen name="aiq_info_text_size">14sp</dimen>
+    <dimen name="aqi_numeric_text_margin_left">5dp</dimen>
+    <dimen name="circle_layout_margin_top">0dp</dimen>
+    <dimen name="humidity_label_text_size">15sp</dimen>
+    <dimen name="humidity_level_text_size">25sp</dimen>
+    <dimen name="humidity_info_text_size">15sp</dimen>
+
+    <dimen name="init_button_margin_right_left">35dp</dimen>
+
+    <dimen name="wifi_list_item_text_size">18sp</dimen>
+
+    <dimen name="register_logo_margin_top">70dp</dimen>
+    <dimen name="register_logo_width">150dp</dimen>
+    <dimen name="register_logo_height">50dp</dimen>
+    <dimen name="login_edit_margin_top">30dp</dimen>
+    <dimen name="login_edit_width">313dp</dimen>
+    <dimen name="login_edit_height">50dp</dimen>
+    <dimen name="login_edit_padding">19dp</dimen>
+    <dimen name="register_button_margin_top">19dp</dimen>
+    <dimen name="register_button_width">310dp</dimen>
+    <dimen name="register_button_height">50dp</dimen>
+    <dimen name="register_tips_margin_bottom">32dp</dimen>
+    <dimen name="register_right_now_text">16sp</dimen>
+    <dimen name="register_edit_text_size">16sp</dimen>
+    <dimen name="ic_back_padding_left_top">15dp</dimen>
+    <dimen name="verification_code_tips_text">16sp</dimen>
+    <dimen name="verification_code_tips_margin_bottom">15dp</dimen>
+
+    <dimen name="choose_connect_title_logo_width">120dp</dimen>
+    <dimen name="choose_connect_title_logo_height">40dp</dimen>
+    <dimen name="choose_connect_title_logo_margin_top_bottom">20dp</dimen>
+    <dimen name="choose_connect_layout_padding">15dp</dimen>
+    <dimen name="choose_connect_image_width">88dp</dimen>
+    <dimen name="choose_connect_image_height">183dp</dimen>
+    <dimen name="choose_connect_image_text_margin">15dp</dimen>
+    <dimen name="choose_connect_text_width">180dp</dimen>
+    <dimen name="choose_connect_title_text_size">20sp</dimen>
+    <dimen name="choose_connect_title_margin_bottom">10dp</dimen>
+    <dimen name="choose_connect_tips_text_size">16sp</dimen>
+
+    <dimen name="status_textview_height">50dp</dimen>
+
+    <dimen name="detail_title_height">58dp</dimen>
+    <dimen name="detail_title_padding">5dp</dimen>
+    <dimen name="detail_title_icon_width_height">48dp</dimen>
+    <dimen name="detail_menu_width">250dp</dimen>
+    <dimen name="detail_menu_logo_padding_top_bottom">41dp</dimen>
+    <dimen name="detail_menu_item_height">80dp</dimen>
+    <dimen name="detail_menu_item_text_width">80dp</dimen>
+    <dimen name="detail_menu_item_text_margin_left_right">10dp</dimen>
+    <dimen name="detail_menu_item_text_size">20sp</dimen>
+    <dimen name="detail_menu_item_icon_edge">50dp</dimen>
+    <dimen name="detail_menu_item_counter_width">50dp</dimen>
+    <dimen name="detail_menu_item_counter_size">14sp</dimen>
+
+    <dimen name="accounts_list_height">150dp</dimen>
+    <dimen name="account_list_item_height">48dp</dimen>
+    <dimen name="account_list_item_margin_top">18dp</dimen>
+    <dimen name="account_list_item_label_margin_left_right">24dp</dimen>
+    <dimen name="account_list_item_label_text_size">16sp</dimen>
+    <dimen name="account_list_item_content_text_size">16sp</dimen>
+    <dimen name="account_list_item_content_max_width">200dp</dimen>
+
+    <dimen name="feedback_edittext_height">150dp</dimen>
+    <dimen name="feedback_edittext_margin">20dp</dimen>
+    <dimen name="send_button_margin">20dp</dimen>
+
+    <dimen name="about_us_logo_margin_top">70dp</dimen>
+    <dimen name="about_us_version_margin_top">15dp</dimen>
+    <dimen name="about_us_version_size">18sp</dimen>
+    <dimen name="about_us_hot_line_size">20sp</dimen>
+    <dimen name="about_us_hot_line_margin_left">10dp</dimen>
+    <dimen name="about_us_copy_right_margin_bottom_top">10dp</dimen>
+    <dimen name="about_us_user_agreement_text_size">18sp</dimen>
+
+    <dimen name="modify_password_item_height">80dp</dimen>
+    <dimen name="modify_password_item_padding_left_right">20dp</dimen>
+    <dimen name="modify_password_item_padding_top_bottom">10dp</dimen>
+    <dimen name="modify_password_label_width">80dp</dimen>
+    <dimen name="modify_password_label_size">16sp</dimen>
+
+    <dimen name="circle_indicator_margin_bottom">20dp</dimen>
+    <dimen name="detail_viewpager_margin_bottom">20dp</dimen>
+
+    <dimen name="dash_board_center_layout_margin_left_right">30dp</dimen>
+    <dimen name="dash_board_center_layout_margin_top">70dp</dimen>
+    <dimen name="dash_board_bottom_layout_margin_bottom">30dp</dimen>
+    <dimen name="dash_board_bottom_layout_height">100dp</dimen>
+    <dimen name="in_door_label_size">25sp</dimen>
+    <dimen name="in_door_level_label_text_margin">5dp</dimen>
+    <dimen name="in_door_level_size">30sp</dimen>
+    <dimen name="in_door_value_size">120sp</dimen>
+    <dimen name="in_door_value_text_margin_top">10sp</dimen>
+    <dimen name="dash_board_item_value_text_size">30sp</dimen>
+    <dimen name="dash_board_item_label_text_size">16sp</dimen>
+    <dimen name="dash_board_tips_text_size">16sp</dimen>
+    <dimen name="dash_board_tips_text_margin_bottom">10dp</dimen>
+
+    <dimen name="purifier_seek_bar_width">300dp</dimen>
+    <dimen name="purifier_seek_bar_height">100dp</dimen>
+    <dimen name="purifier_seek_bar_margin_bottom">50dp</dimen>
+    <dimen name="purifier_machine_height">342dp</dimen>
+    <dimen name="filter_progress_wheel_width_height">150dp</dimen>
+    <dimen name="filter_text_layout_height">75dp</dimen>
+    <dimen name="filter_text_divide_width">70dp</dimen>
+    <dimen name="filter_progress_label_text_size">18sp</dimen>
+    <dimen name="filter_progress_value_text_size">30sp</dimen>
+
+    <dimen name="room_info_text_size">16sp</dimen>
+
+    <dimen name="message_header_padding_left_right">20dp</dimen>
+    <dimen name="message_header_padding_top_bottom">10dp</dimen>
+    <dimen name="message_header_label_margin_left">10dp</dimen>
+    <dimen name="message_header_label_text_size">16sp</dimen>
+    <dimen name="message_item_padding_left_right">20dp</dimen>
+    <dimen name="message_item_padding_top_bottom">10dp</dimen>
+    <dimen name="message_item_text_size">16sp</dimen>
+    <dimen name="message_item_date_margin_top">5dp</dimen>
+</resources>

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+    <include
+        android:id="@+id/register_logo"
+        layout="@layout/register_logo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"/>
+
+    <LinearLayout
+        android:id="@+id/input_layout"
+        android:layout_width="@dimen/login_edit_width"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/register_logo"
+        android:layout_marginTop="@dimen/login_edit_margin_top">
+        <com.air.phone.widget.HideablePasswordEditText
+            style="@style/RegisterEdit.Password"
+            android:id="@+id/password"
+            android:hint="@string/set_pwd_hint"
+            android:inputType="textPassword"
+            android:background="@drawable/edit_single_bg"/>
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/ok"
+        style="@style/Button.Register"
+        android:text="@string/login"/>
+</RelativeLayout>

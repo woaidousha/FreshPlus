@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:gravity="center_horizontal"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+    <include layout="@layout/activity_action_bar"/>
+    <EditText
+        android:id="@+id/feedback_content"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/feedback_edittext_height"
+        android:layout_margin="@dimen/feedback_edittext_margin"
+        android:background="@drawable/send_edittext_bg"
+        android:gravity="left|top"
+        android:hint="@string/feedback_edittext_hint"/>
+
+    <Button
+        style="@style/Button.Send"
+        android:id="@+id/send_button"
+        android:text="@string/send_button"/>
+</LinearLayout>

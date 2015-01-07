@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:padding="10dp"
+                android:background="@color/data_item_bg">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_alignParentLeft="true"
+        android:layout_centerVertical="true"
+        android:orientation="vertical"
+        android:gravity="center_vertical|left"
+        android:weightSum="2">
+
+        <TextView
+            android:id="@+id/title"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:gravity="center_vertical"
+            android:textColor="@color/data_text_color"
+            android:textSize="@dimen/data_text_size"
+            android:layout_weight="1"
+            android:text="@string/app_name"/>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="horizontal"
+            android:gravity="center_vertical">
+
+            <ImageView
+                android:id="@+id/icon"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:scaleType="centerInside"
+                android:src="@android:drawable/ic_delete"/>
+
+            <TextView
+                android:id="@+id/secondary_title"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:textColor="@color/data_secondary_text_color"
+                android:textSize="@dimen/data_secondary_text_size"
+                android:layout_weight="1"
+                android:text="@string/mode_normal_text"/>
+        </LinearLayout>
+    </LinearLayout>
+    
+    <TextView
+        android:id="@+id/data_numeric"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:textColor="@color/data_numeric_color"
+        android:textSize="@dimen/data_numeric_text_size"
+        android:padding="10dp"
+        android:text="@string/scan"/>
+</RelativeLayout>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:background="@color/drawer_menu_background">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:scaleType="centerInside"
+        android:src="@drawable/image_detail_menu_logo"
+        android:paddingTop="@dimen/detail_menu_logo_padding_top_bottom"
+        android:paddingBottom="@dimen/detail_menu_logo_padding_top_bottom"/>
+
+    <ListView
+        android:id="@+id/menu_list"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:divider="@color/detail_menu_list_divide_color"/>
+</LinearLayout>

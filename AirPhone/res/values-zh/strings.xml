@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Fresh+</string>
+
+    <string name="activity_label_messages">我的消息</string>
+    <string name="activity_label_accounts">我的账户</string>
+    <string name="activity_label_qa">常见问题</string>
+    <string name="activity_label_feedback">意见反馈</string>
+    <string name="activity_label_about_us">关于我们</string>
+    <string name="activity_label_modify_address">修改收货地址</string>
+    <string name="activity_label_modify_password">修改密码</string>
+
+    <string name="scan">扫描</string>
+    <string name="toast_wifi_password_is_wrong">Please confirm your wifi password.</string>
+    <string name="toast_connect_board_success">Connect board success, start send wifi info.</string>
+    <string name="toast_connect_board_fail">Connect board fail, please retry.</string>
+    <string name="toast_connect_home_wifi_success">Has connected home wifi.</string>
+    <string name="toast_board_connect_home_wifi_success">Board has connected home wifi success.</string>
+
+    <string name="init_text">净化器初始化</string>
+    <string name="mode_standby_text">待机</string>
+    <string name="mode_fast_text">快速模式</string>
+    <string name="mode_normal_text">正常模式</string>
+    <string name="mode_switch_success">模式切换成功</string>
+
+    <string name="filter_progress_label">滤网已消耗</string>
+    <string name="filter_progress_text">滤网消耗 %d (沙漏进度)</string>
+    <string name="my_home">我的家</string>
+
+    <string name="error_send_wifi_info">与净化器通信出错，请重试</string>
+    <string name="setting_up_wifi">已设置Wi-Fi</string>
+    <string name="testing_wifi">测试Wi-Fi网络</string>
+    <string name="setting_up_interconnect">互通已设置</string>
+    <string name="confirm_wifi_label">请填写%s的网络密码</string>
+    <string name="connect_board_tips">净化器即将连接%s请稍候…</string>
+    <string name="board_connecting_wifi">净化器正在连接网络</string>
+    <string name="board_connected_wifi">净化器已连接到网络</string>
+    <string name="please_confirm_board_on">请确保净化器已进入初始化模式</string>
+    <string name="register_label">为了方便您和家人共同管理净化器请设置一个家庭登录账户</string>
+    <string name="username_error">用户名不能为空</string>
+    <string name="password_error">密码不能为空</string>
+    <string name="phone_number_error">电话号码不规范</string>
+    <string name="add_user_error">注册失败，请重试</string>
+    <string name="add_user_success">注册成功</string>
+    <string name="done">完成</string>
+
+    <string name="start_init">开始初始化</string>
+    <string name="first_init_intro">首先请长按净化器上的B按钮5秒，使你的净化器进入初始化状态</string>
+    
+    <string name="scan_home_wifi_tips">请选择家庭网络</string>
+
+    <string name="out_door">室外</string>
+    <string name="in_door">室内</string>
+    <string name="humidity">湿度</string>
+    <string name="my_purifier">我的净化器</string>
+    <string name="loading_data">数据加载中，请稍候…</string>
+    <string name="loading_data_error">加载失败，请重试.</string>
+
+    <string name="out_door_aqi_text">室外空气质量指数</string>
+    <string name="in_door_aqi_text">室内可比指数</string>
+    <string name="in_door_detail">详细信息</string>
+
+    <string name="temperature_label">温度</string>
+    <string name="humidity_label">湿度</string>
+    <string name="other_label">氯气含量</string>
+
+    <string name="pm25_title">PM2.5指数</string>
+
+    <string name="username_hint">Fresh账号(注册手机号)</string>
+    <string name="password_hint">密码</string>
+    <string name="login">登录</string>
+    <string name="next_step">下一步</string>
+    <string name="no_account">还没有账号？</string>
+    <string name="register_right_now">立即注册</string>
+    <string name="phone_number_hint">请输入手机号</string>
+    <string name="prompt_sending_verification_code">正在发送验证码到%s</string>
+    <string name="verification_code_hint">请输入验证码</string>
+    <string name="verification_sent_tips">验证码已发送至%s</string>
+    <string name="verification_length_error">验证码长度不够</string>
+    <string name="verification_error">验证码错误</string>
+    <string name="set_pwd_hint">请设置一个密码(长度6–12)</string>
+    <string name="prompt_setting_password">正在设置密码</string>
+    <string name="password_length_error">密码长度不符</string>
+    <string name="prompt_binding_family_account">正在关联家庭账户</string>
+
+    <string name="choose_connect_direct_title">直接连接新设备</string>
+    <string name="choose_connect_direct_tips">如果你还未绑定净化器请点击“+”对净化器进行初始化</string>
+    <string name="choose_connect_bind_title">关联家庭账户</string>
+    <string name="choose_connect_bind_tips">如果您的家人已绑定净化器请点击“+”关联家人账户</string>
+    
+    <string name="menu_item_messages">我的消息</string>
+    <string name="menu_item_accounts">我的账户</string>
+    <string name="menu_item_qa">常见问题</string>
+    <string name="menu_item_feedback">意见反馈</string>
+    <string name="menu_item_about_us">关于我们</string>
+
+    <string name="address_label">家庭住址</string>
+    <string name="address_error_empty">请输入正确的地址</string>
+
+    <string name="feedback_edittext_hint">欢迎反馈意见和问题，您的反馈是对我们产品进步的动力</string>
+    <string name="feedback_error_empty">内容为空</string>
+    <string name="send_button">发送</string>
+    <string name="save_button">保存</string>
+    
+    <string name="about_us_version">版本 %s</string>
+    <string name="about_us_hot_line">热线电话: 400–1111-1111</string>
+    <string name="about_us_user_agreement">用户服务协议</string>
+
+    <string name="modify_password_label">修改密码</string>
+    <string name="old_password_label">旧密码</string>
+    <string name="new_password_label">新密码</string>
+    <string name="re_password_label">重复密码</string>
+    <string name="old_password_hint">请输入旧密码</string>
+    <string name="new_password_hint">不少于6位</string>
+    <string name="re_password_hint">重复新密码</string>
+    <string name="pwd_twice_not_match">两次输入不相同</string>
+
+    <string name="in_door_level_label">室内空气</string>
+    <string name="out_door_level_label">室外空气</string>
+    <string name="in_door_temperature_label">室内温度</string>
+    <string name="in_door_humidity_label">室内湿度</string>
+    <string name="good">86</string>
+    
+    <string name="please_set_room_info">设置房间信息</string>
+
+    <string name="message_header_warn">警告</string>
+    <string name="message_header_work_record">工作记录</string>
+    <string name="empty_message">暂无消息</string>
+</resources>

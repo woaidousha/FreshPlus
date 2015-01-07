@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="fill_parent"
+              android:layout_height="fill_parent">
+
+    <Button
+        android:id="@+id/init"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/init"/>
+
+    <Button
+        android:id="@+id/register"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/register"/>
+
+    <Button
+        android:id="@+id/upload_device_info"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/device_upload_info"/>
+
+    <Button
+        android:id="@+id/upload_device_data"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/device_upload_data"/>
+
+    <Button
+        android:id="@+id/get_report"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/get_report"/>
+
+    <Button
+        android:id="@+id/send_boot"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/send_boot"/>
+
+    <Button
+        android:id="@+id/switch_mode"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/switch_mode"/>
+
+    <Button
+        android:id="@+id/upgrade"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/upgrade"/>
+</LinearLayout>
+

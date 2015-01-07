@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:gravity="center"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+
+    <ImageView
+        android:scaleType="centerInside"
+        android:layout_marginTop="@dimen/choose_connect_title_logo_margin_top_bottom"
+        android:layout_width="@dimen/choose_connect_title_logo_width"
+        android:layout_height="@dimen/choose_connect_title_logo_height"
+        android:src="@drawable/splash_logo"/>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:gravity="center"
+        android:weightSum="2"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <include
+            layout="@layout/choose_direct_board_layout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"/>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/choose_connect_divide"/>
+        <include
+            layout="@layout/choose_bind_account_layout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"/>
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:gravity="center">
+
+    <FrameLayout
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_marginTop="@dimen/circle_layout_margin_top"
+        android:layout_centerHorizontal="true">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scaleType="centerInside"
+            android:background="@drawable/circle_bg"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:orientation="vertical">
+
+
+            <TextView
+                style="@android:style/TextAppearance.Small"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:textSize="@dimen/aqi_label_text_size"
+                android:textColor="@color/aqi_label_text_color"
+                android:text="@string/temperature_label"/>
+
+            <TextView
+                style="@android:style/TextAppearance.Large"
+                android:id="@+id/temperature_numeric"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:textSize="@dimen/humidity_level_text_size"
+                android:textColor="@color/aqi_label_text_color"
+                android:textStyle="bold"/>
+        </LinearLayout>
+    </FrameLayout>
+
+    <TextView
+        style="@android:style/TextAppearance.Medium"
+        android:id="@+id/temperature_tips"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textSize="@dimen/humidity_info_text_size"
+        android:textColor="@color/aqi_tip_text_color"
+        android:text="@string/in_door_aqi_text"/>
+
+    <FrameLayout
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_marginTop="@dimen/circle_layout_margin_top"
+        android:layout_centerHorizontal="true">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scaleType="centerInside"
+            android:background="@drawable/circle_bg"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:orientation="vertical">
+
+
+            <TextView
+                style="@android:style/TextAppearance.Small"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:textSize="@dimen/aqi_label_text_size"
+                android:textColor="@color/aqi_label_text_color"
+                android:text="@string/humidity_label"/>
+
+            <TextView
+                style="@android:style/TextAppearance.Large"
+                android:id="@+id/humidity_numeric"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:textSize="@dimen/humidity_level_text_size"
+                android:textColor="@color/aqi_label_text_color"
+                android:textStyle="bold"/>
+        </LinearLayout>
+    </FrameLayout>
+
+    <TextView
+        style="@android:style/TextAppearance.Medium"
+        android:id="@+id/humidity_tips"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textSize="@dimen/humidity_info_text_size"
+        android:textColor="@color/aqi_tip_text_color"
+        android:text="@string/in_door_aqi_text"/>
+</LinearLayout>

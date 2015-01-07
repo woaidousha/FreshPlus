@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+    <include layout="@layout/activity_action_bar"/>
+
+    <ImageView
+        android:id="@+id/about_us_logo"
+        android:layout_width="198dp"
+        android:layout_height="75dp"
+        android:scaleType="centerInside"
+        android:src="@drawable/about_us_logo"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/action_bar"
+        android:layout_marginTop="@dimen/about_us_logo_margin_top"/>
+
+    <TextView
+        android:id="@+id/version_label"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_marginTop="@dimen/about_us_version_margin_top"
+        android:layout_below="@id/about_us_logo"
+        android:textColor="@color/about_us_text_color"
+        android:textSize="@dimen/about_us_version_size"
+        android:text="@string/about_us_version"/>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_centerInParent="true">
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:scaleType="center"
+            android:src="@drawable/ic_about_us_phone"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="left|center_vertical"
+            android:textColor="@color/about_us_text_color"
+            android:textSize="@dimen/about_us_hot_line_size"
+            android:text="@string/about_us_hot_line"
+            android:layout_marginLeft="@dimen/about_us_hot_line_margin_left"/>
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/copy_right"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:scaleType="center"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="@dimen/about_us_copy_right_margin_bottom_top"
+        android:layout_marginTop="@dimen/about_us_copy_right_margin_bottom_top"
+        android:src="@drawable/ic_about_us_copyright"/>
+
+    <TextView
+        android:id="@+id/user_agreement"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_above="@id/copy_right"
+        android:textColor="@color/about_us_user_agreement_color"
+        android:textSize="@dimen/about_us_user_agreement_text_size"
+        android:text="@string/about_us_user_agreement"
+        android:layout_marginLeft="@dimen/about_us_hot_line_margin_left"/>
+</RelativeLayout>

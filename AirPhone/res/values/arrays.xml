@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="api_level_value">
+        <item>优</item>
+        <item>良</item>
+        <item>中</item>
+        <item>差</item>
+    </string-array>
+
+    <string-array name="outdoor_aqi_tips">
+        <item>可正常活动</item>
+        <item>极少数异常敏感人群应减少户外活动</item>
+        <item>儿童、老年人及心脏病、呼吸系统疾病患者应减少长时间、高强度的户外锻炼</item>
+        <item>儿童、老年人及心脏病、呼吸系统疾病患者避免长时间、高强度的户外锻炼，一般人群减少户外运动</item>
+        <item>儿童、老年人和病人应当留在室内，避免体力消耗，一般人群应避免户外活动</item>
+        <item>儿童、老年人和病人应当留在室内，避免体力消耗，一般人群应避免户外活动</item>
+    </string-array>
+
+    <string-array name="indoor_aqi_tips">
+        <item>可正常活动</item>
+        <item>极少数异常敏感人群应减少户外活动</item>
+        <item>儿童、老年人及心脏病、呼吸系统疾病患者应减少长时间、高强度的户外锻炼</item>
+        <item>儿童、老年人及心脏病、呼吸系统疾病患者避免长时间、高强度的户外锻炼，一般人群减少户外运动</item>
+        <item>儿童、老年人和病人应当留在室内，避免体力消耗，一般人群应避免户外活动</item>
+        <item>儿童、老年人和病人应当留在室内，避免体力消耗，一般人群应避免户外活动</item>
+    </string-array>
+</resources>

@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="common_bg_start_color">#95d700</color>
+    <color name="common_bg_end_color">#21b71d</color>
+    <color name="common_list_divide">#DFDFDF</color>
+
+    <color name="other_activity_background">#fff3f4f0</color>
+
+    <color name="register_edit_color">#b8b8b8</color>
+    <color name="register_edit_hint_color">#b8b8b8</color>
+
+    <color name="no_account_color">#cfebce</color>
+    <color name="register_right_now_color">#ffffff</color>
+    <color name="verification_code_tips_color">#e8f6de</color>
+
+    <color name="choose_connect_title_text_color">#FFFFFF</color>
+    <color name="choose_connect_tips_text_color">#FFFFFF</color>
+    <color name="choose_connect_divide">#a9e288</color>
+
+    <string-array name="outdoor_aqi_color">
+        <item>#00e400</item>
+        <item>#ffff00</item>
+        <item>#ff7e00</item>
+        <item>#ff0000</item>
+        <item>#99004c</item>
+        <item>#7e0023</item>
+    </string-array>
+
+    <color name="action_bar_background">#95d700</color>
+    <color name="action_bar_title">#FFFFFFFF</color>
+    <color name="first_init_intro">#ff5b5b5b</color>
+    <color name="scan_wifi_selected_color">#ffa617f5</color>
+
+    <color name="data_item_bg">#ff7a219f</color>
+    <color name="data_text_color">#FFFFFFFF</color>
+    <color name="data_secondary_text_color">#FFFFFFFF</color>
+    <color name="data_numeric_color">#FFFFFFFF</color>
+
+    <color name="pm25_title_color">#FFFFFF</color>
+    <color name="pm25_background">#ff7a219f</color>
+    
+    <color name="my_purifier_button_text">#FFFFFF</color>
+
+    <color name="radio_button_text_color">#FFFFFF</color>
+
+    <color name="filter_text_color">#FFFFFF</color>
+    <color name="loading_text_color">#FFFFFF</color>
+    <color name="aqi_label_text_color">#FFFFFF</color>
+    <color name="aqi_tip_text_color">#88FFFFFF</color>
+
+    <color name="wifi_list_item_text_color">#000000</color>
+    <color name="drawer_menu_background">#ff2b2931</color>
+    <color name="detail_menu_item_text_color">#91d601</color>
+    <color name="detail_menu_item_counter_color">#FFFFFF</color>
+    <color name="detail_menu_list_divide_color">#ff323135</color>
+
+    <color name="account_list_item_bg_color">#FFFFFF</color>
+    <color name="account_list_item_label_color">#3C3C3C</color>
+    <color name="account_list_item_content_color">#B8B8B8</color>
+    <color name="account_list_divide">#DFDFDF</color>
+
+    <color name="about_us_text_color">#A5A5A5</color>
+    <color name="about_us_user_agreement_color">#8FD502</color>
+    
+    <color name="modify_password_label_color">#3C3C3C</color>
+    <color name="modify_password_divide">#DFDFDF</color>
+
+    <color name="in_door_label_text_color">#FFFFFF</color>
+    <color name="in_door_level_text_color">#95d700</color>
+    <color name="in_door_value_text_color">#FFFFFF</color>
+    <color name="dash_board_item_value_text_color">#CCFFFFFF</color>
+    <color name="dash_board_item_label_text_color">#7FFFFFFF</color>
+    <color name="dash_board_tips_text_color">#FFFFFF</color>
+
+    <color name="filter_progress_rim_bg_color">#ffc8cdbc</color>
+    <color name="filter_progress_bg_color">#fff8fff0</color>
+    <color name="filter_progress_good_color">#ffc8cdbc</color>
+    <color name="filter_progress_contour_color">#33111111</color>
+
+    <color name="room_info_text_color">#FFFFFF</color>
+
+    <color name="message_header_bg">#FFFFFF</color>
+    <color name="message_header_label_text_color">#3C3C3C</color>
+    <color name="message_item_bg">#FFFFFF</color>
+    <color name="message_item_text_color">#989898</color>
+</resources>

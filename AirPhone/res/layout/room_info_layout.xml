@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:gravity="center"
+              android:id="@+id/set_room_info_layout"
+              android:visibility="gone">
+
+    <TextView
+        android:id="@+id/set_room_tips"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/please_set_room_info"
+        android:layout_weight="1"
+        android:gravity="center_vertical|left"
+        android:textColor="@color/room_info_text_color"
+        android:visibility="gone"/>
+
+    <LinearLayout
+        android:id="@+id/room_info_layout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:weightSum="2"
+        android:orientation="vertical"
+        android:gravity="center_vertical|left">
+
+        <com.air.phone.widget.FontTextView
+            android:id="@+id/room_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical|left"
+            android:text="@string/please_set_room_info"
+            android:layout_weight="1"
+            android:textSize="@dimen/room_info_text_size"
+            android:textColor="@color/room_info_text_color"/>
+
+        <com.air.phone.widget.FontTextView
+            android:id="@+id/room_area"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical|left"
+            android:text="@string/please_set_room_info"
+            android:textColor="@color/room_info_text_color"
+            android:textSize="@dimen/room_info_text_size"
+            android:layout_weight="1"/>
+    </LinearLayout>
+</LinearLayout>

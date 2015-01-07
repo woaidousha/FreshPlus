@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:gravity="center">
+    <ImageView
+        android:duplicateParentState="true"
+        android:id="@+id/status_icon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:scaleType="centerInside"/>
+    <TextView
+        android:duplicateParentState="true"
+        android:id="@+id/work_mode_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="@string/app_name"
+        android:textSize="@dimen/dash_board_item_label_text_size"
+        android:textColor="@color/dash_board_item_label_text_color"/>
+</LinearLayout>

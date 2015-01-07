@@ -1,0 +1,13 @@
+<resources>
+
+    <string name="app_name">UpdateBoard</string>
+    
+    <string name="error_not_null">不能为空</string>
+    <string name="error_unknown">未知错误</string>
+    <string name="error_network_link">无法连接到服务器</string>
+    <string name="error_network_timeout">网络超时</string>
+    <string name="error_parse_error">解析错误</string>
+    <string name="error_user_not_exist">用户不存在</string>
+    <string name="error_result_empty">结果为空</string>
+
+</resources>

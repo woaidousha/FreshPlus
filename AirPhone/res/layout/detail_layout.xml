@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2013 The Android Open Source Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+
+<!--
+    A DrawerLayout is indended to be used as the top-level content view
+    using match_parent for both width and height to consume the full space available.
+-->
+<android.support.v4.widget.DrawerLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res/com.air.phone"
+    android:id="@+id/drawer_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:id="@+id/drawer_content"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/detail_title_height"
+            android:padding="@dimen/detail_title_padding">
+
+            <ImageView
+                android:id="@+id/menu_switcher"
+                android:layout_width="@dimen/detail_title_icon_width_height"
+                android:layout_height="@dimen/detail_title_icon_width_height"
+                android:scaleType="centerInside"
+                android:src="@drawable/ic_menu_switcher_selector"
+                android:layout_alignParentLeft="true"
+                android:layout_centerVertical="true"/>
+
+            <include
+                layout="@layout/room_info_layout"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_centerVertical="true"/>
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:scaleType="centerInside"
+                android:layout_centerInParent="true"
+                android:src="@drawable/detail_title_logo"/>
+
+            <ImageView
+                android:id="@+id/light_button"
+                android:layout_width="@dimen/detail_title_icon_width_height"
+                android:layout_height="@dimen/detail_title_icon_width_height"
+                android:scaleType="centerInside"
+                android:src="@drawable/ic_light_moon"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"/>
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:paddingLeft="16dp"
+            android:paddingRight="16dp"
+            android:scrollbarStyle="outsideOverlay">
+            <com.air.phone.widget.CirclePageIndicator
+                android:id="@+id/circle_indicator"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_centerHorizontal="true"
+                android:layout_marginBottom="@dimen/circle_indicator_margin_bottom"/>
+            <android.support.v4.view.ViewPager
+                android:id="@+id/view_pager"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_alignParentTop="true"
+                android:layout_above="@id/circle_indicator"
+                android:layout_marginBottom="@dimen/detail_viewpager_margin_bottom"/>
+        </RelativeLayout>
+    </LinearLayout>
+
+    <include
+        android:id="@+id/menu_drawer"
+        layout="@layout/detail_menu_layout"
+        android:layout_width="@dimen/detail_menu_width"
+        android:layout_height="match_parent"
+        android:layout_gravity="start"/>
+</android.support.v4.widget.DrawerLayout>
+

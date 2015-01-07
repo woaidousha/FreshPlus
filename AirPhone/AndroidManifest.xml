@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+          package="com.air.phone"
+          android:versionCode="1"
+          android:versionName="1.0">
+
+    <uses-sdk android:minSdkVersion="14"/>
+
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE"/>
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION"/>
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"/>
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE"/>
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.WAKE_LOCK"/>
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED"/>
+    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW"/>
+    <uses-permission android:name="android.permission.WAKE_LOCK"/>
+    <uses-permission android:name="android.permission.WRITE_SETTINGS"/>
+    <uses-permission android:name="com.android.alarm.permission.SET_ALARM"/>
+
+    <application
+        android:name=".PhoneApplication"
+        android:label="@string/app_name"
+        android:icon="@drawable/ic_launcher"
+        android:theme="@android:style/Theme.Holo.Light.NoActionBar">
+        <activity
+            android:name=".ui.SplashActivity"
+            android:label="@string/app_name"
+            android:theme="@style/AirActivityTheme">
+        </activity>
+        <activity
+            android:name=".ui.LoginActivity"
+            android:theme="@style/AirActivityTheme">
+        </activity>
+        <activity
+            android:name=".ui.register.RegisterActivity"
+            android:theme="@style/AirActivityTheme">
+        </activity>
+        <activity
+            android:name=".ui.BindPurifierActivity"
+            android:theme="@style/AirActivityTheme">
+        </activity>
+        <activity android:name=".ui.BindFamilyAccountActivity"
+            android:theme="@style/AirActivityTheme">
+        </activity>
+        <activity
+            android:name=".ui.detail.DetailActivity"
+            android:theme="@style/AirActivityTheme">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".ui.detail.MessagesActivity"
+            android:theme="@style/OtherActivityTheme"
+            android:screenOrientation="portrait"
+            android:label="@string/activity_label_messages">
+        </activity>
+        <activity
+            android:name=".ui.detail.AccountInfoActivity"
+            android:theme="@style/OtherActivityTheme"
+            android:label="@string/activity_label_accounts">
+        </activity>
+        <activity
+            android:name=".ui.detail.QaActivity"
+            android:theme="@style/OtherActivityTheme"
+            android:label="@string/activity_label_qa">
+        </activity>
+        <activity
+            android:name=".ui.detail.FeedbackActivity"
+            android:theme="@style/OtherActivityTheme"
+            android:label="@string/activity_label_feedback">
+        </activity>
+        <activity
+            android:name=".ui.detail.AboutUsActivity"
+            android:theme="@style/OtherActivityTheme"
+            android:label="@string/activity_label_about_us">
+        </activity>
+        <activity
+            android:name=".ui.detail.ModifyAddressActivity"
+            android:theme="@style/OtherActivityTheme"
+            android:label="@string/activity_label_modify_address">
+        </activity>
+        <activity
+            android:name=".ui.detail.ModifyPasswordActivity"
+            android:theme="@style/OtherActivityTheme"
+            android:label="@string/activity_label_modify_password">
+        </activity>
+        <activity
+            android:name=".ui.init.InitActivity"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".ui.MyHomeActivity"
+            android:screenOrientation="portrait"></activity>
+        <activity
+            android:name=".ui.detail.PmDetailDialogActivity"
+            android:theme="@android:style/Theme.Holo.Dialog"
+            android:screenOrientation="portrait"></activity>
+
+        <service android:name=".service.PhoneService"/>
+        <receiver android:name=".service.BootReceiver">
+            <intent-filter>
+                <action android:name="android.intent.action.BOOT_COMPLETED"/>
+                <action android:name="com.air.board.ACTION_ALARM"/>
+            </intent-filter>
+        </receiver>
+        <activity android:name=".ui.DemoActivity"/>
+    </application>
+</manifest>

@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Fresh+</string>
+
+    <string name="activity_label_messages">Messages</string>
+    <string name="activity_label_accounts">Accounts</string>
+    <string name="activity_label_qa">Q &amp; A</string>
+    <string name="activity_label_feedback">Feedback</string>
+    <string name="activity_label_about_us">About us</string>
+    <string name="activity_label_modify_address">Modify address</string>
+    <string name="activity_label_modify_password">Modify password</string>
+
+    <string name="scan">Scan</string>
+    <string name="toast_wifi_password_is_wrong">Please confirm your wifi password.</string>
+    <string name="toast_connect_board_success">Connect board success, start send wifi info.</string>
+    <string name="toast_connect_board_fail">Connect board fail, please retry.</string>
+    <string name="toast_connect_home_wifi_success">Has connected home wifi.</string>
+    <string name="toast_board_connect_home_wifi_success">Board has connected home wifi success.</string>
+    
+    <string name="init_text">Init</string>
+    <string name="mode_standby_text">Standby</string>
+    <string name="mode_fast_text">Fast</string>
+    <string name="mode_normal_text">Normal</string>
+    <string name="mode_switch_success">Switch mode success</string>
+
+    <string name="filter_progress_label">Filter consumption</string>
+    <string name="filter_progress_text">Filter consumption %d, (Hourglass progress)</string>
+    <string name="my_home">My Home</string>
+
+    <string name="error_send_wifi_info">Connect with purifier error, please retry.</string>
+    <string name="setting_up_wifi">Setting up Wi-Fi</string>
+    <string name="testing_wifi">Testing Wi-Fi network</string>
+    <string name="setting_up_interconnect">Setting up interconnect</string>
+    <string name="confirm_wifi_label">Please input password of %s</string>
+    <string name="connect_board_tips">Purifier will connect %s later, please wait …</string>
+    <string name="board_connecting_wifi">Purifier connecting network.</string>
+    <string name="board_connected_wifi">Purifier has connected network.</string>
+    <string name="please_confirm_board_on">Please confirm board is on.</string>
+    <string name="register_label">In order to facilitate you and family management. Please set a family logon account</string>
+    <string name="username_error">User name is empty.</string>
+    <string name="password_error">Password is empty.</string>
+    <string name="phone_number_error">Phone number is error</string>
+    <string name="add_user_error">Register error, please retry.</string>
+    <string name="add_user_success">Register success.</string>
+    <string name="done">Done</string>
+
+    <string name="start_init">Start</string>
+    <string name="first_init_intro">请长按净化器上的B按钮5秒，使净化器进入初始化状态</string>
+
+    <string name="scan_home_wifi_tips">请选择家庭网络</string>
+
+    <string name="out_door">Outdoor</string>
+    <string name="in_door">Indoor</string>
+    <string name="humidity">Humidity</string>
+    <string name="my_purifier">My Purifier</string>
+    <string name="loading_data">Loading data, please wait…</string>
+    <string name="loading_data_error">Loading data error, please retry.</string>
+
+    <string name="out_door_aqi_text">Outdoor AQI</string>
+    <string name="in_door_aqi_text">Indoor AQI</string>
+    <string name="in_door_detail">Information</string>
+
+    <string name="temperature_label">Temperature</string>
+    <string name="humidity_label">Humidity</string>
+    <string name="other_label">Chlorine</string>
+    
+    <string name="numeric_temperature">%d℃</string>
+    <string name="numeric_humidity">%d%%</string>
+    <string name="numeric_other">%d%%</string>
+
+    <string name="pm25_title">PM2.5</string>
+    <string name="arrow_down">">"</string>
+
+    <string name="username_hint">Fresh account (Phone number)</string>
+    <string name="password_hint">password</string>
+    <string name="login">Login</string>
+    <string name="next_step">Next</string>
+    <string name="no_account">No account?</string>
+    <string name="register_right_now">Register</string>
+    <string name="phone_number_hint">Please input phone number</string>
+    <string name="prompt_sending_verification_code">Sending verification code to %s</string>
+    <string name="verification_code_hint">Please input verification code</string>
+    <string name="verification_sent_tips">Verification has sent to %s</string>
+    <string name="verification_length_error">Verify the length is not enough</string>
+    <string name="verification_error">Verification wrong</string>
+    <string name="set_pwd_hint">Please set password(length 6–12)</string>
+    <string name="prompt_setting_password">Setting password</string>
+    <string name="password_length_error">Password length not match</string>
+    <string name="prompt_binding_family_account">Binding home account</string>
+
+    <string name="choose_connect_direct_title">Direct new device</string>
+    <string name="choose_connect_direct_tips">If you are not binding purifier, please click the "+" to initialize the purifier</string>
+    <string name="choose_connect_bind_title">Bind home account</string>
+    <string name="choose_connect_bind_tips">If your family has been bound. Please click the "+" association family account</string>
+
+    <string name="menu_item_messages">Message</string>
+    <string name="menu_item_accounts">Account</string>
+    <string name="menu_item_qa">Q &amp; A</string>
+    <string name="menu_item_feedback">Feedback</string>
+    <string name="menu_item_about_us">About us</string>
+
+    <string name="address_label">Home Address</string>
+    <string name="address_error_empty">Please input right address</string>
+
+    <string name="feedback_edittext_hint">Welcomes feedback and questions, your feedback is the driving force of our progress.</string>
+    <string name="feedback_error_empty">Content is empty</string>
+    <string name="send_button">Send</string>
+    <string name="save_button">Save</string>
+
+    <string name="about_us_version">version %s</string>
+    <string name="about_us_hot_line">Hotline: 400–1111-1111</string>
+    <string name="about_us_user_agreement">User agreement</string>
+
+    <string name="modify_password_label">Modify password</string>
+    <string name="old_password_label">Old</string>
+    <string name="new_password_label">New</string>
+    <string name="re_password_label">Repeat</string>
+    <string name="old_password_hint">Please input old password</string>
+    <string name="new_password_hint">More than 6 lenght</string>
+    <string name="re_password_hint">Repeat password</string>
+    <string name="pwd_twice_not_match">The two password is not the same</string>
+
+    <string name="in_door_level_label">Indoor</string>
+    <string name="out_door_level_label">Outdoor</string>
+    <string name="in_door_temperature_label">Temperature</string>
+    <string name="in_door_humidity_label">Humidity</string>
+    <string name="good">86</string>
+
+    <string name="please_set_room_info">Set room</string>
+
+    <string name="message_header_warn">Warn</string>
+    <string name="message_header_work_record">Work</string>
+    <string name="empty_message">No message</string>
+</resources>

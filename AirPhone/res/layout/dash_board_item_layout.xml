@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:gravity="center"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center">
+        <ImageView
+            android:id="@+id/dash_board_item_icon"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:scaleType="center"
+            android:src="@drawable/ic_dash_board_out_door"/>
+        <com.air.phone.widget.FontTextView
+            android:id="@+id/dash_board_item_value"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="@string/good"
+            android:textSize="@dimen/dash_board_item_value_text_size"
+            android:textColor="@color/dash_board_item_value_text_color"/>
+    </LinearLayout>
+    <TextView
+        android:id="@+id/dash_board_item_label"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="@string/app_name"
+        android:textSize="@dimen/dash_board_item_label_text_size"
+        android:textColor="@color/dash_board_item_label_text_color"/>
+</LinearLayout>

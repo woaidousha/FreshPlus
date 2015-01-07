@@ -1,0 +1,6 @@
+*.iml
+AirBoard/AirBoard.iml
+/gen/
+/out/
+/bin/
+/.idea/

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">AirBoard</string>
+    <string name="init">Init</string>
+    <string name="register">Register</string>
+    <string name="device_upload_info">UploadDeviceInfo</string>
+    <string name="device_upload_data">UploadDeviceData</string>
+    <string name="get_report">GetReport</string>
+    <string name="send_boot">Boot</string>
+    <string name="switch_mode">Switch Mode</string>
+    <string name="upgrade">Upgrade</string>
+</resources>

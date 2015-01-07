@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:gravity="center"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content">
+    <ImageView
+        android:scaleType="centerInside"
+        android:layout_marginTop="@dimen/register_logo_margin_top"
+        android:layout_width="@dimen/register_logo_width"
+        android:layout_height="@dimen/register_logo_height"
+        android:src="@drawable/splash_logo"/>
+</LinearLayout>

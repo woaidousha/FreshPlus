@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/itemContainer"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/account_list_item_height"
+    android:minHeight="@dimen/account_list_item_height"
+    android:background="@color/account_list_item_bg_color">
+
+    <TextView
+        android:id="@+id/address_label"
+        style="@style/AccountInfoItemLabel"
+        android:text="@string/address_label"/>
+
+    <TextView
+        style="@style/AccountInfoItemContent"
+        android:layout_alignParentRight="true"
+        android:gravity="center_vertical|right"
+        android:layout_marginRight="@dimen/account_list_item_label_margin_left_right"
+        android:id="@+id/text_content"
+        android:text="@string/address_label"/>
+
+    <View
+        android:id="@+id/divide"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/account_list_divide"/>
+</RelativeLayout>

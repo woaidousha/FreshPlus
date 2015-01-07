@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/action_bar"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/action_bar_height"
+    android:padding="10dp"
+    android:background="@color/action_bar_background">
+    <ImageView
+        android:id="@+id/action_bar_btn_back"
+        android:layout_width="@dimen/action_bar_btn_width_height"
+        android:layout_height="@dimen/action_bar_btn_width_height"
+        android:src="@drawable/ic_actionbar_return"
+        android:scaleType="centerInside"
+        android:layout_centerVertical="true"
+        android:layout_alignParentLeft="true"/>
+    <ImageView
+        android:id="@+id/action_bar_btn_close"
+        android:layout_width="@dimen/action_bar_btn_width_height"
+        android:layout_height="@dimen/action_bar_btn_width_height"
+        android:src="@drawable/ic_actionbar_close"
+        android:visibility="gone"
+        android:scaleType="centerInside"
+        android:layout_centerVertical="true"
+        android:layout_alignParentRight="true"/>
+    <TextView
+        android:id="@+id/action_bar_title"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:layout_centerInParent="true"
+        android:textSize="@dimen/action_bar_title"
+        android:textColor="@color/action_bar_title"
+        android:layout_centerVertical="true"/>
+</RelativeLayout>
